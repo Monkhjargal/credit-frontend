@@ -1,2 +1,5 @@
-# credit-frontend
-Credit Bank
+```
+yarn install
+```
+yarn start || yarn build
+```

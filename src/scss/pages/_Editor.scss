@@ -1,0 +1,19 @@
+.dictionary-editor {
+    width: 100%;
+    height: calc(100vh - 100px);
+
+    div.jsoneditor-menu,
+    .jsoneditor-modal .pico-modal-header {
+        background-color: $color-primary;
+    }
+
+    .jsoneditor-modal
+        .jsoneditor-button-group.jsoneditor-button-group-value-asc
+        input.jsoneditor-button-asc,
+    .jsoneditor-modal
+        .jsoneditor-button-group.jsoneditor-button-group-value-desc
+        input.jsoneditor-button-desc {
+        border-color: $color-primary;
+        background: $color-primary;
+    }
+}
